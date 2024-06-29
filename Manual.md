@@ -32,3 +32,19 @@ Location - An instance of where you want to create the instance/asset. (Ex. game
 Asset - A string of the selected instance you want to create. (Ex. "Part" OR "MeshPart" OR "Model")
 Properties - A table of what you want to add to the instance/asset. (Ex. {} OR {Transparency = 1, CanCollide = false})
 ```
+--**BIT UTILITIES**--
+```
+CUTIL.Bxor() - (Alpha,Beta)
+*DESCRIPTION*
+Acts as an XOR gate, but for Bitwise. For more information: https://en.wikipedia.org/wiki/Bitwise_operation
+*PARAMETERS*
+Alpha - Operand one to compute against Beta / With Beta
+Beta - Operand two to compute against Alpha / With Alpha
+
+CUTIL.Band()
+*DESCRIPTION*
+Acts as a AND Gate, but for Bitwise. For more information: https://en.wikipedia.org/wiki/Bitwise_operation
+*PARAMETERS*
+Alpha - Operand one to compute against Beta / With Beta
+Beta - Operand two to compute against Alpha / With Alpha
+```
