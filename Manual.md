@@ -7,6 +7,7 @@ Iron Utilities, or IrUtil is a Roblox-based Utility all-in-one module. It covers
 Currently in the newest release, there are 51 functions.
 
 --**LOGGING**--
+
 CUTIL.LogMessage() - (Message,Level,Custom)
 
 *DESCRIPTION*
