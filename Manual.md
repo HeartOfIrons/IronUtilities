@@ -8,7 +8,7 @@ Currently in the newest release, there are 51 functions.
 
 --**LOGGING**--
 
-CUTIL.LogMessage() - (Message,Level,Custom)
+# CUTIL.LogMessage() - (Message,Level,Custom)
 
 *DESCRIPTION*
 
