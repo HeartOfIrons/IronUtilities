@@ -21,16 +21,25 @@ Level (Opt) - A string representing the log level. (Ex. "INFO" or "ERROR"). Defa
 Custom (Opt) - A boolean indicating whether to return the log entry instead of printing it. Defaults to false.
 
 CUTIL.FilterLogs() - (Level)
+
 *DESCRIPTION*
+
 Filters the log entries by the specified log level and returns a table containing the matching entries.
+
 *PARAMETERS*
+
 Level - A string representing the log level to filter by (Ex. "INFO").
 
 CUTIL.ClearLogs() - (Level)
+
 *DESCRIPTION*
+
 Clears log entries with the specified log level. If no level is specified, all log entries are cleared.
+
 *PARAMETERS*
+
 Level (Opt) - A string representing the log(s) to clear by level (Ex. "INFO"). If nil or unrepresented, all logs are cleared.
+
 --**BASIC UTILITIES**--
 ```
 CUTIL.FindInstance() - (Location,Instance,Recursive)
