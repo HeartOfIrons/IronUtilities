@@ -20,7 +20,7 @@ Message - A string containing the message to log. (Ex. "Hello World!")
 Level (Opt) - A string representing the log level. (Ex. "INFO" or "ERROR"). Defaults to Strg.LogLevels.INFO.
 Custom (Opt) - A boolean indicating whether to return the log entry instead of printing it. Defaults to false.
 
-CUTIL.FilterLogs() - (Level)
+### CUTIL.FilterLogs() - (Level)
 
 *DESCRIPTION*
 
@@ -30,7 +30,7 @@ Filters the log entries by the specified log level and returns a table containin
 
 Level - A string representing the log level to filter by (Ex. "INFO").
 
-CUTIL.ClearLogs() - (Level)
+### CUTIL.ClearLogs() - (Level)
 
 *DESCRIPTION*
 
