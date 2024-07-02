@@ -16,8 +16,10 @@ Logs a message with an optional severity level and timestamp.
 
 *PARAMETERS*
 
-Message - A string containing the message to log. (Ex. "Hello World!") 
+Message - A string containing the message to log. (Ex. "Hello World!")
+ 
 Level (Opt) - A string representing the log level. (Ex. "INFO" or "ERROR"). Defaults to Strg.LogLevels.INFO.
+
 Custom (Opt) - A boolean indicating whether to return the log entry instead of printing it. Defaults to false.
 
 ### CUTIL.FilterLogs() - (Level)
